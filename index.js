@@ -1,6 +1,6 @@
 //import json-server
 const jsonServer = require('json-server')
-//create server for media player app
+//create server  
 const CRUDAPPSERVER = jsonServer.create()
 //create middleware 
 const middleWare = jsonServer.defaults()
